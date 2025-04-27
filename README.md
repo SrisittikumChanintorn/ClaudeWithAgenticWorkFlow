@@ -1,20 +1,20 @@
 # AgenticWorkflow - Tree of Thought Analysis with Reflection
 
-## Project Overview
+## Project Overview 📚
 
 AgenticWorkflow implements an advanced analytical framework using Tree of Thought methodology enhanced with reflection techniques. This project leverages Claude models from Anthropic to perform deep, multi-perspective analysis of complex questions through structured branching and reflection.
 
-## Core Concept: Tree of Thought with Reflection
+## Core Concept: Tree of Thought with Reflection 🧠
 
-### Tree of Thought (ToT) Approach
+### Tree of Thought (ToT) Approach 🌳
 The Tree of Thought methodology starts with a root question that branches into multiple perspectives. Each perspective is then further analyzed through sub-branches that focus on specific aspects of the initial branch. This creates a comprehensive analytical structure where:
 
-1. The root question defines the overall analysis scope
+1. The "First question ( Root )"  defines the overall analysis scope
 2. Primary branches represent major analytical perspectives
 3. Sub-branches explore specialized dimensions within each perspective
 4. Each branch receives tailored prompt instructions specific to its analytical focus
 
-### Reflection Enhancement
+### Reflection Enhancement ✔️
 The reflection technique enriches the Tree of Thought approach by:
 
 1. Reviewing initial perspective outputs for accuracy and completeness
@@ -25,13 +25,13 @@ The reflection technique enriches the Tree of Thought approach by:
 
 This combined approach ensures that each branch not only addresses its designated perspective but does so with refined reasoning and enhanced analytical depth.
 
-## Architecture
+## Architecture 🛠️
 
-### Primary Branches
+### Primary Branches 🌿
 - **Domestic Market Competition**: Analyzes competitive dynamics between Chinese and Thai businesses
 - **Consumer Behavior**: Examines shifts in Thai consumer preferences and spending patterns
 
-### Sub-Branches
+### Sub-Branches 🍃
 
 **Domestic Market Competition:**
 - Price Undercutting: Effects on Thai producers and vulnerable sectors
@@ -43,7 +43,7 @@ This combined approach ensures that each branch not only addresses its designate
 - Disposable Income and Spending Patterns: Changes in consumer purchasing power
 - Brand Loyalty and Perception: Erosion of loyalty and perception of Chinese products
 
-### Workflow Process
+### Workflow Process ⚙️ 
 
 1. Initial perspectives are generated for primary branches
 2. Reflection is applied to these perspectives for refinement
@@ -82,7 +82,7 @@ The analysis is structured as follows:
 
 This structured approach allows for comprehensive analysis of complex economic dynamics from multiple angles while maintaining analytical rigor through reflection processes.
 
-## Benefits
+## ✅ Benefits 
 
 - **Comprehensive Analysis**: Examines issues from multiple specialized perspectives
 - **Enhanced Reasoning**: Reflection stages improve quality of analysis
@@ -92,7 +92,7 @@ This structured approach allows for comprehensive analysis of complex economic d
 - **Perspective Isolation**: Each perspective receives specialized prompt instructions
 - **Improved Output Quality**: Reflection processes refine and enhance initial analyses
 
-## Applications
+## 🚀 Applications
 
 While the example implementation analyzes Chinese price war impacts on Thailand's economy, this framework can analyze any complex question requiring multi-perspective thinking, including:
 
