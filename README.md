@@ -1,4 +1,4 @@
-# AgenticWorkflow - Tree of Thought Analysis with Reflection
+# 🔗 AgenticWorkflow - Tree of Thought Analysis with Reflection
 
 ## Project Overview 📚
 
