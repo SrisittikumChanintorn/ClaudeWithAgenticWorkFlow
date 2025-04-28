@@ -116,15 +116,11 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 ```
 
 
-## Installation & Usage 🚀
+## Installation and Usage 🚀
 
-Clone the repository and set up the environment:
+### Setup 🛠️ 
 
-```bash
-# Clone the repository
-git clone https://github.com/username/AgenticWorkflow.git
-cd AgenticWorkflow
-```
+1. Clone this project to your repository:
 
 ### Create Virtual Environment (optional but recommended)
 
@@ -132,25 +128,29 @@ cd AgenticWorkflow
 python -m venv venv
 ```
 
-###  Activate Virtual Environment (venv)
+2. Activate Virtual Environment (venv) 📦 
+   
 ```bash
 source venv/bin/activate  # On MacOS use this
 venv\Scripts\activate     # On Windows use this 
 ```
-### Install dependencies
+
+3. Install dependencies ⬇️
 ```bash
 pip install -r requirements.txt
 ```
 
 
-## Configure API key
-#### Edit agentic_workflow/config.py with your API key
+4. Configure API key 🔑
+   
+#### Edit `main.py` with your API key
 
-## Run the analysis
+5. Run the analysis ▶️
 
 ```bash
 python main.py
 ```
+
 
 ## Example Analysis & Output 📊
 
