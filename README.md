@@ -148,19 +148,25 @@ git clone https://github.com/username/AgenticWorkflow.git
 cd AgenticWorkflow
 ```
 
+### Create Virtual Environment (optional but recommended)
+
 ```bash
-# Create and activate virtual environment (optional but recommended)
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
+
+###  Activate Virtual Environment (venv)
 ```bash
-# Install dependencies
+source venv/bin/activate  # On MacOS use this
+venv\Scripts\activate     # On Windows use this 
+```
+### Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
 
 ## Configure API key
-#### Edit agentic_workflow/config.py with your Anthropic API key
+#### Edit agentic_workflow/config.py with your API key
 
 ## Run the analysis
 
@@ -171,12 +177,12 @@ python main.py
 ## Example Analysis & Output 📊
 
 ### Input Query:
-```
-What is the potential impact of Chinese price war on Thailand economy?
-```
+
+**What is the potential impact of Chinese price war on Thailand economy?**
+
 
 ### Output Summary:
-```bash
+
 Based on comprehensive analysis through our Tree of Thought with Reflection methodology, here are the key conclusions about the potential impacts of a Chinese price war on Thailand's economy:
 
 1. **Shifting brand loyalty**: There's likely to be a significant erosion of loyalty to Thai brands, especially in price-sensitive categories. This shift may be more pronounced among younger consumers and for non-essential goods.
@@ -200,4 +206,4 @@ Based on comprehensive analysis through our Tree of Thought with Reflection meth
 10. **Economic and cultural implications**: These changes in consumer behavior could have broader impacts on the Thai economy and potentially on cultural identity tied to local brands and products.
 
 These conclusions suggest a complex and evolving landscape for consumer behavior in Thailand, with significant implications for both local and Chinese brands, as well as for the broader economic and cultural dynamics in the country.
-```
+
