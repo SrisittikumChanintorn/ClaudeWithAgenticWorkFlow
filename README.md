@@ -102,3 +102,93 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 - Social impact studies
 - Risk analysis for investment decisions
 - Policy consequence evaluation
+- 
+
+## Project Structure 📁
+
+```bash
+AgenticWorkflow/
+├── agentic_workflow/
+│   ├── __init__.py
+│   ├── config.py                         # API keys and model configuration
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── reflection.py                 # Reflection implementation
+│   │   └── tot.py                        # Tree of Thought core logic
+│   ├── perspectives/
+│   │   ├── __init__.py
+│   │   ├── domestic_market/
+│   │   │   ├── __init__.py
+│   │   │   ├── price_undercutting.py     # Sub-branch implementation
+│   │   │   ├── market_share_losses.py    # Sub-branch implementation
+│   │   │   └── innovation_quality.py     # Sub-branch implementation
+│   │   └── consumer_behavior/
+│   │       ├── __init__.py
+│   │       ├── demand_cheaper_goods.py   # Sub-branch implementation
+│   │       ├── disposable_income.py      # Sub-branch implementation
+│   │       └── brand_loyalty.py          # Sub-branch implementation
+│   └── utils/
+│       ├── __init__.py
+│       └── llm_handler.py                # LLM API interaction handler
+├── examples/
+│   ├── economic_analysis.py              # Example script for economic analysis
+│   └── custom_analysis.py                # Template for custom analysis
+├── main.py                               # Main script to run the analysis
+├── requirements.txt                      # Project dependencies
+└── README.md                             # Project documentation
+```
+
+## Installation & Usage 🚀
+
+Clone the repository and set up the environment:
+
+```bash
+# Clone the repository
+git clone https://github.com/username/AgenticWorkflow.git
+cd AgenticWorkflow
+
+# Create and activate virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure API key
+# Edit agentic_workflow/config.py with your Anthropic API key
+
+# Run the analysis
+python main.py
+```
+
+## Example Analysis & Output 📊
+
+### Input Query:
+```
+What is the potential impact of Chinese price war on Thailand economy?
+```
+
+### Output Summary:
+Based on comprehensive analysis through our Tree of Thought with Reflection methodology, here are the key conclusions about the potential impacts of a Chinese price war on Thailand's economy:
+
+1. **Shifting brand loyalty**: There's likely to be a significant erosion of loyalty to Thai brands, especially in price-sensitive categories. This shift may be more pronounced among younger consumers and for non-essential goods.
+
+2. **Evolving perception of Chinese products**: Initial skepticism about the quality of cheaper Chinese goods may give way to a more positive perception if these products prove to offer good value for money.
+
+3. **Value redefinition**: The influx of lower-priced Chinese products may redefine what Thai consumers consider "good value," potentially setting new expectations across various product categories.
+
+4. **Segmented impact**: The effects on brand loyalty and perception will likely vary across different consumer segments, product categories, and generations.
+
+5. **Cultural influence**: Increased exposure to Chinese brands could extend beyond purchasing decisions to influence broader consumer trends and preferences in Thailand.
+
+6. **Trust and safety concerns**: Initial worries about the safety and reliability of Chinese products may be a hurdle, particularly in sensitive categories like food and children's products.
+
+7. **Nationalistic vs. pragmatic choices**: Some consumers may experience tension between supporting local brands out of national pride and the practical appeal of lower prices.
+
+8. **Opportunity for brand reinvention**: Thai brands may need to emphasize qualities beyond price (e.g., local heritage, sustainability, customer service) to maintain consumer loyalty.
+
+9. **Long-term perception changes**: The shift in brand loyalty and perception is likely to be gradual, influenced by factors such as product performance and government policies.
+
+10. **Economic and cultural implications**: These changes in consumer behavior could have broader impacts on the Thai economy and potentially on cultural identity tied to local brands and products.
+
+These conclusions suggest a complex and evolving landscape for consumer behavior in Thailand, with significant implications for both local and Chinese brands, as well as for the broader economic and cultural dynamics in the country.
