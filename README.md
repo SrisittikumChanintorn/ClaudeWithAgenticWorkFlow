@@ -116,41 +116,37 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 ```
 
 
-## Installation and Usage 🚀
-
-### Setup 🛠️ 
+## Setup 🛠️
 
 1. Clone this project to your repository:
 
-### Create Virtual Environment (optional but recommended)
-
+2. Create Virtual Environment (optional but recommended)
 ```bash
 python -m venv venv
 ```
 
-2. Activate Virtual Environment (venv) 📦 
+3. Activate Virtual Environment (venv) or Select Python Interpreture 📦 
    
 ```bash
 source venv/bin/activate  # On MacOS use this
 venv\Scripts\activate     # On Windows use this 
 ```
 
-3. Install dependencies ⬇️
+4. Install dependencies ⬇️
 ```bash
 pip install -r requirements.txt
 ```
 
-
-4. Configure API key 🔑
+5. Configure API key 🔑
    
-#### Edit `main.py` with your API key
+###### Edit `main.py` with your API key
 
-5. Run the analysis ▶️
+6. Run the analysis ▶️
 
 ```bash
 python main.py
 ```
-
+    
 
 ## Example Analysis & Output 📊
 
