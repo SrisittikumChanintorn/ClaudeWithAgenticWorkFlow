@@ -121,15 +121,12 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 1. Clone this project to your repository:
 
 2. Create Virtual Environment (optional but recommended)
-```bash
-python -m venv venv
-```
 
 3. Activate Virtual Environment (venv) or Select Python Interpreture 📦 
    
 ```bash
-source venv/bin/activate  # On MacOS use this
-venv\Scripts\activate     # On Windows use this 
+source venv/bin/activate  # On MacOS use this with CMD
+venv\Scripts\activate     # On Windows use this with CMD
 ```
 
 4. Install dependencies ⬇️
