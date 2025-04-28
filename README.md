@@ -106,7 +106,7 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 
 ## Project Structure 📁
 
-```bash
+
 ```bash
 .
 ├── agentic_workflow.py        # Core functions for ToT and reflection
@@ -114,7 +114,7 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 ├── README.md                  # Project documentation
 └── requirements.txt           # Project dependencies
 ```
-```
+
 
 ## Installation & Usage 🚀
 
