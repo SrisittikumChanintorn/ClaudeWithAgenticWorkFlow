@@ -108,7 +108,7 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 
 
 ```bash
-.
+CLAUDE_WITH_AGENTICWORKFLOW/
 ├── agentic_workflow.py        # Core functions for ToT and reflection
 ├── main.py                    # Main script to run the analysis
 ├── README.md                  # Project documentation
